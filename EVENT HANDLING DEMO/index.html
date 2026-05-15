@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>✈️ Travel Planner</h1>
+
+    <select id="destination">
+        <option value="">Choose Destination</option>
+        <option value="South Korea">South Korea</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Paris">Paris</option>
+    </select>
+
+    <input type="text" id="notes" placeholder="Add travel notes...">
+
+    <button id="exploreBtn">Explore</button>
+
+    <form id="bookingForm">
+        <input type="text" id="travelerName" placeholder="Your Name">
+        <button type="submit">Book Trip</button>
+    </form>
+
+    <div id="destinationCard">🌴 Hover to preview destination</div>
+
+    <div id="output">Your travel updates will appear here...</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
