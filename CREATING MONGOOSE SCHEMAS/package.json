@@ -1,0 +1,13 @@
+{
+  "name": "mongoose-schemas-lab",
+  "version": "1.0.0",
+  "description": "Lab for creating Mongoose schemas, validation, defaults, timestamps, and subdocuments.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  }
+}
+
